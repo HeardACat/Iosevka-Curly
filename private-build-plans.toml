@@ -4,12 +4,20 @@ spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
+digit-form = 'old-style'
 
-[buildPlans.IosevkaCurly.variants]
-inherits = "ss20"
+  [buildPlans.IosevkaCurly.variants]
+  inherits = "ss20"
 
-[buildPlans.IosevkaCurly.variants.design]
-digit-form = "old-style"
+    [buildPlans.IosevkaCurly.variants.design]
+    digit-form = "old-style"
+    capital-a = "straight-serifless"
+    capital-q = "crossing-curly-tailed"
+    e = "rounded"
+    f = "serifless"
+    i = "serifed-semi-tailed"
+    l = "serifed-semi-tailed"
+    y = "cursive-serifless"
 
 [buildPlans.IosevkaCurly.weights.Regular]
 shape = 400
