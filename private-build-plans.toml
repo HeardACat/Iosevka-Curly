@@ -5,8 +5,11 @@ serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.IosevkaCurly.variants]
-  inherits = "ss20"
+[buildPlans.IosevkaCurly.variants]
+inherits = "ss20"
+
+[buildPlans.IosevkaCurly.variants.design]
+digit-form = "old-style"
 
 [buildPlans.IosevkaCurly.weights.Regular]
 shape = 400
